@@ -5,7 +5,8 @@
   "author": "AmitxParmar <amitparmar901@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index""dev": ""
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "config": "^3.3.9",
