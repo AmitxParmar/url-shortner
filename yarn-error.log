@@ -1,0 +1,33 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Amit\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add shortid mongoose express valid-url config
+
+PATH: 
+  C:\Users\Amit\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Amit\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\MinGW\bin;C:\Users\Amit\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\Scripts;C:\Users\Amit\AppData\Roaming\npm;C:\Program Files\nodejs;%appdata%\npm;C:\Program Files\Git\cmd;C:\Users\Amit\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\MongoDB\Server\6.0\bin;C:\mongosh-1.6.1\bin;C:\Users\Amit\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Amit\AppData\Local\Programs\Python\Python311;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\MinGW\bin;C:\Users\Amit\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\Scripts;C:\Users\Amit\AppData\Roaming\npm;C:\Program Files\nodejs;%appdata%\npm;C:\Program Files\Git\cmd;C:\Users\Amit\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\MongoDB\Server\6.0\bin;C:\mongosh-1.6.1\bin;C:\Users\Amit\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Amit\AppData\Local\Programs\Python\Python311;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\MinGW\bin;C:\Users\Amit\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\Scripts;C:\Users\Amit\AppData\Roaming\npm;C:\Program Files\nodejs;%appdata%\npm;C:\Program Files\Git\cmd;C:\Users\Amit\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\MongoDB\Server\6.0\bin;C:\mongosh-1.6.1\bin;C:\users\amit\appdata\local\yarn\bin;C:\Users\Amit\AppData\Local\Programs\Microsoft VS Code\bin;C:\users\amit\appdata\local\yarn\bin;C:\Users\Amit\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Amit\.deta\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.21.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.npmjs.org
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+npm manifest: 
+  {
+    "name": "url_shortner_project_",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "AmitxParmar <amitparmar901@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
