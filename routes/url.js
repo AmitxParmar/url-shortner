@@ -25,6 +25,7 @@ router.post('/shorten', async (req, res) => {
     if (validUrl.isUri(longUrl)) {
         try {
             let url = await Url.findOne({ longUrl });
+
             if (url) {
                 res.json(url);
             } else {
@@ -38,11 +39,16 @@ router.post('/shorten', async (req, res) => {
                 });
 
                 await url.save();
+
                 res.json(url);
             }
+        } catch (err) {
+            console.log(err);
+            res.status(500).json("server error");
         }
-    } catch (err) {
-        console.log(err);
+    } else {
+        res.status(401).json('Invalid long url')
     }
-
 })
+
+module.exports = router;
