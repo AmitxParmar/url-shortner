@@ -1,5 +1,7 @@
 const mongoose = require('mongoose')
 
+mongoose.set('strictQuery', false);
+
 const urlSchema = new mongoose.Schema({
     urlCode: String,
     longUrl: String,

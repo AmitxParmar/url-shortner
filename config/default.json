@@ -1,4 +1,4 @@
 {
-    "mongoURI": "",
+    "mongoURI": "mongodb://localhost:27017/url-shortner",
     "baseUrl": "http://localhost:5000"
 }

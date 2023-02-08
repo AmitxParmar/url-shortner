@@ -1,5 +1,5 @@
-const express = require('express')
-const server = express.Router()
+const express = require('express');
+const router = express.Router();
 
 const Url = require('../models/Url');
 
@@ -21,4 +21,7 @@ router.get('/:code', async (req, res) => {
         console.error(err);
         res.status(500).json("Server error");
     }
-})
+});
+
+
+module.exports = router;
